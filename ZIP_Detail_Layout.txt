@@ -9,7 +9,7 @@ Note:  In the filenames, [YR] is the 2-digit data year.  Each data field is sepa
            Data  
 Name       Type   Description
 
-ZIP        TXT    ZIP Code
+ZIP        TXT    ZIP Code  -- BUS211: it is important to import this field as a "CHARACTER" field in read.csv.
 
 NAICS      TXT    Industry Code - 6-digit NAICS code.
                   
