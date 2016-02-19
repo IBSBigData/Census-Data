@@ -12,11 +12,11 @@ are replaced by zeroes.
            Data  
 Name       Type   Description
 
-ZIP        TXT    ZIP Code
+ZIP        TXT    ZIP Code  -- BUS211: it is important to import this field as a "CHARACTER" field in read.csv.
 
 NAME       TXT    ZIP Code Name
 
-EMPFLAG    TXT    Data Suppression Flag
+EMPFLAG    TXT    Data Suppression Flag -- BUS211: Ignore any zip with a letter in this field
 
                      
                   This denotes employment size class for data
